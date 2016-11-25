@@ -1,0 +1,23 @@
+{
+    "name": "generator-neat",
+    "version": "0.1.0",
+    "description": "Generator for NEAT Apps",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nexum/generator-neat.git"
+    },
+    "author": "Dominik Kienzler <d.kienzler@dominik-kienzler.de>",
+    "license": "ISC",
+    "files": [
+        "generators/app",
+        "generators/element"
+    ],
+    "keywords": [
+        "neat",
+        "neat-generator",
+        "yeoman"
+    ],
+    "dependencies": {
+        "yeoman-generator": "^0.24.1"
+    }
+}

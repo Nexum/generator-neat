@@ -1,0 +1,11 @@
+"use strict";
+
+var Element = require("neat-elements").Element;
+var Promise = require("bluebird");
+
+module.exports = class <%= locals.className%> extends Element {
+
+    execute<%= locals.actionFunc%>(resolve) {
+        resolve();
+    }
+}
