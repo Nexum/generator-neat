@@ -44,7 +44,7 @@ module.exports = generators.Base.extend({
                 action: (answers.action || answers.name).toLowerCase(),
                 actionFunc: capitalizeFirstLetter((answers.action || answers.name).toLowerCase()),
                 className: capitalizeFirstLetter(answers.name.toLowerCase()),
-                file: (answers.file || answers.name).toLowerCase() + ".js",
+                file: (answers.file || answers.name).toLowerCase(),
                 templateName: (() => {
                     if (answers.action) {
                         return answers.name.toLowerCase() + capitalizeFirstLetter(answers.action.toLowerCase());
